@@ -1,12 +1,12 @@
 # MKS-SERVO42A
-## Features
-- Based on the open project of nano_stepper by Misfittech:[https://github.com/Misfittech/nano_stepper](http:://github.com/Misfittech/nano_stepper "https://github.com/Misfittech/nano_stepper").
-- To improve performance, Makerbase Team has made the following changes:
+# Features
+- Based on the open project of nano_stepper by Misfittech [click here](https://github.com/Misfittech/nano_stepper)
 - CPU is Atmel ATSAMD21G18A-U, 48MHZ
-- Changed the magnetic encoder to Allegro's A1333LLETR-T Contactless 0° to 360° angle sensor IC ,12bit
+- The magnetic encoder to Allegro's A1333LLETR-T Contactless 0° to 360° angle sensor IC ,12bit
+- The Drive is Allegro's A4954LPT, support 2A current
+- Support setting parameter by I2C interface oled0.96 and USB instruction
+- Compatible with all 3D printing motherboards by use MKS SV_EXT V1.1
 - Support build and upload firmware to board by Arduino paltform
-- Change the socket with motherboard, now it can work with much 3D printer motherboards using MKS SV_EXT V1.1 by Makerbase
-- Support setting parameter by I2C interface oled0.96
 
 ## Related tutorials and Notice
 - User Manual. [click here](https://github.com/makerbase-mks/MKS-SERVO42A/wiki/MKS-SERVO42A-User-Manual)
